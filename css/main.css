@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,);
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.my-nav {
+  padding: 20px 0;
+  background-color: rgb(117, 128, 139);
+  display: flex;
+  align-items: center;
+}
+.nav-letter{
+  margin-left: 10px;
+}
+.nav-letter a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: wheat;
+}
+.nav-letter:hover {
+  background-color: rgb(89, 163, 252);
+  cursor: pointer;
+}
+.nav-letter:hover a {
+  color: white;
+  text-decoration: none;
+}
+
+.indent {
+  text-indent: 50px;
+}
