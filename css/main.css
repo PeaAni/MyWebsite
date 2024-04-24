@@ -8,3 +8,7 @@ body {
   font-family: myFirstFont;
   src: url(sansation_light.woff);
 }
+
+section {
+  background-color: beige;
+}
