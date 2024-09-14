@@ -29,10 +29,12 @@
       </div>
   </nav>
   <main>
-    <label for="numbers">กรอกตัวเลขคั่นด้วย "," :</label>
-    <input type="text" id="numbers">
-    <button onclick="sortNumbers()">Sort</button>
-    <p id="result"></p>
+    <label for="numberInput">Enter a number:</label>
+    <input type="text" id="numberInput" >
+    <button onclick="addNumber()">Add Number</button>
+    <button onclick="complete()">Complete</button>
+    <p id="preview"></p>
+    <p id="output"></p>
   </main>
   <script src="js/calcforstatic.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
