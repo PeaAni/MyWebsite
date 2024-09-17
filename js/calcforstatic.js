@@ -19,7 +19,7 @@ function addNumber() {
 }
 
 function complete() {
-    staticlist.sort();
+    staticlist.sort(function(a, b){return a - b});
     output.textContent = "Final array: " + staticlist;
     return;
 }
